@@ -1,4 +1,4 @@
-#finding the sum of k consective elemys in a given array
+#finding the maximum sum of k consective elements in a given array
 #solving this problem using brute force
 
 def max_sum(arr,k):
