@@ -3,6 +3,9 @@
 
 def max_sum(arr,k):
     n=len(arr)
+    if n<k:
+        print('Invalid operation')
+        return  -1
     max_count=sum([arr[i] for i in range(0,k)])
     cur_count= max_count
     for j in range (0,n-k):
